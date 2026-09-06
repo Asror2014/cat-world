@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cat World 🐱</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+      <div class="brand">
+        <div class="brand-icon">🐱</div>
+
+        <div>
+          <h2>Cat<span>World</span></h2>
+          <small>My lovely cat</small>
+        </div>
+      </div>
+
+      <nav class="navigation">
+
+        <a href="#dashboard" class="nav-item active">
+          <span>🏠</span>
+          <span>Dashboard</span>
+        </a>
+
+        <a href="#profile" class="nav-item">
+          <span>🐾</span>
+          <span>My Cat</span>
+        </a>
+
+        <a href="#health" class="nav-item">
+          <span>❤️</span>
+          <span>Health</span>
+        </a>
+
+        <a href="#food" class="nav-item">
+          <span>🍗</span>
+          <span>Food</span>
+        </a>
+
+        <a href="#activity" class="nav-item">
+          <span>🎾</span>
+          <span>Activity</span>
+        </a>
+
+        <a href="#gallery" class="nav-item">
+          <span>📸</span>
+          <span>Gallery</span>
+        </a>
+
+        <a href="#achievements" class="nav-item">
+          <span>🏆</span>
+          <span>Achievements</span>
+        </a>
+
+      </nav>
+
+      <div class="sidebar-bottom">
+
+        <button class="theme-btn" id="themeBtn">
+          <span id="themeIcon">🌙</span>
+          <span>Dark mode</span>
+        </button>
+
+        <div class="sidebar-cat">
+          <div class="mini-cat">😺</div>
+
+          <div>
+            <strong>Luna</strong>
+            <span>Feeling happy</span>
+          </div>
+        </div>
+
+      </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main">
+
+      <!-- TOPBAR -->
+      <header class="topbar">
+
+        <div class="mobile-brand">
+          🐱 <strong>CatWorld</strong>
+        </div>
+
+        <div class="search">
+          <span>🔍</span>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search..."
+          >
+        </div>
+
+        <div class="top-actions">
+
+          <button class="icon-btn" id="notificationBtn">
+            🔔
+            <span class="notification-dot"></span>
+          </button>
+
+          <div class="user">
+            <div class="user-avatar">👨🏻</div>
+
+            <div>
+              <strong>Cat Lover</strong>
+              <small>Owner</small>
+            </div>
+          </div>
+
+        </div>
+
+      </header>
+
+
+      <!-- CONTENT -->
+      <div class="content" id="dashboard">
+
+        <!-- HERO -->
+        <section class="hero">
+
+          <div class="hero-text">
+
+            <span class="eyebrow">🐾 SATURDAY, SEPTEMBER 5</span>
+
+            <h1>
+              Welcome back,
+              <span>Cat Lover!</span>
+            </h1>
+
+            <p>
+              Let's see how your little friend is doing today.
+            </p>
+
+            <div class="hero-buttons">
+              <button class="primary-btn" id="playBtn">
+                🎾 Play with Luna
+              </button>
+
+              <button class="secondary-btn" id="feedBtn">
+                🍗 Give food
+              </button>
+            </div>
+
+          </div>
+
+          <div class="hero-cat">
+            <div class="cat-glow"></div>
+            <div class="big-cat">😺</div>
+
+            <div class="floating-paw paw-1">🐾</div>
+            <div class="floating-paw paw-2">🐾</div>
+            <div class="floating-paw paw-3">🐾</div>
+          </div>
+
+        </section>
+
+
+        <!-- STATS -->
+        <section class="stats-grid">
+
+          <article class="stat-card">
+
+            <div class="stat-icon purple">😸</div>
+
+            <div class="stat-info">
+              <span>Mood</span>
+              <strong>Happy</strong>
+              <small class="positive">↑ Great today</small>
+            </div>
+
+          </article>
+
+
+          <article class="stat-card">
+
+            <div class="stat-icon pink">⚖️</div>
+
+            <div class="stat-info">
+              <span>Weight</span>
+              <strong>4.2 kg</strong>
+              <small>Normal range</small>
+            </div>
+
+          </article>
+
+
+          <article class="stat-card">
+
+            <div class="stat-icon blue">💧</div>
+
+            <div class="stat-info">
+              <span>Water</span>
+              <strong>650 ml</strong>
+              <small>82% of goal</small>
+            </div>
+
+          </article>
+
+
+          <article class="stat-card">
+
+            <div class="stat-icon orange">🎾</div>
+
+            <div class="stat-info">
+              <span>Activity</span>
+              <strong>42 min</strong>
+              <small class="positive">↑ 12% this week</small>
+            </div>
+
+          </article>
+
+        </section>
+
+
+        <!-- DASHBOARD GRID -->
+        <section class="dashboard-grid">
+
+          <!-- PROFILE -->
+          <article class="card profile-card" id="profile">
+
+            <div class="card-header">
+
+              <div>
+                <span class="section-label">MY CAT</span>
+                <h2>Luna</h2>
+              </div>
+
+              <button class="more-btn">•••</button>
+
+            </div>
+
+
+            <div class="profile-content">
+
+              <div class="profile-avatar">
+                <div>😻</div>
+                <span class="online-dot"></span>
+              </div>
+
+              <div class="profile-details">
+
+                <div class="detail">
+                  <span>Breed</span>
+                  <strong>British Shorthair</strong>
+                </div>
+
+                <div class="detail">
+                  <span>Age</span>
+                  <strong>2 years 4 months</strong>
+                </div>
+
+                <div class="detail">
+                  <span>Gender</span>
+                  <strong>♀ Female</strong>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="mood-box">
+
+              <div>
+                <span>Today's mood</span>
+                <strong>😻 Very Happy</strong>
+              </div>
+
+              <div class="mood-bar">
+                <div></div>
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- HEALTH -->
+          <article class="card health-card" id="health">
+
+            <div class="card-header">
+
+              <div>
+                <span class="section-label">HEALTH</span>
+                <h2>Health overview</h2>
+              </div>
+
+              <button class="link-btn">View all →</button>
+
+            </div>
+
+
+            <div class="health-list">
+
+              <div class="health-item">
+
+                <div class="health-icon green">💉</div>
+
+                <div class="health-text">
+                  <strong>Vaccination</strong>
+                  <span>Next: Oct 12, 2026</span>
+                </div>
+
+                <span class="status good">Good</span>
+
+              </div>
+
+
+              <div class="health-item">
+
+                <div class="health-icon blue">🩺</div>
+
+                <div class="health-text">
+                  <strong>Vet checkup</strong>
+                  <span>Last: Aug 20, 2026</span>
+                </div>
+
+                <span class="status good">Good</span>
+
+              </div>
+
+
+              <div class="health-item">
+
+                <div class="health-icon orange">💊</div>
+
+                <div class="health-text">
+                  <strong>Medicine</strong>
+                  <span>No active medicine</span>
+                </div>
+
+                <span class="status normal">Clear</span>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- FOOD -->
+          <article class="card food-card" id="food">
+
+            <div class="card-header">
+
+              <div>
+                <span class="section-label">NUTRITION</span>
+                <h2>Today's food</h2>
+              </div>
+
+              <span class="calories">285 / 350 kcal</span>
+
+            </div>
+
+
+            <div class="progress-container">
+
+              <div class="progress-info">
+                <span>Daily goal</span>
+                <strong>81%</strong>
+              </div>
+
+              <div class="progress">
+                <div class="progress-value" style="width:81%"></div>
+              </div>
+
+            </div>
+
+
+            <div class="meal-list">
+
+              <div class="meal done">
+                <div class="meal-icon">🌅</div>
+
+                <div>
+                  <strong>Breakfast</strong>
+                  <span>85 kcal · 08:00</span>
+                </div>
+
+                <span>✓</span>
+              </div>
+
+
+              <div class="meal done">
+                <div class="meal-icon">☀️</div>
+
+                <div>
+                  <strong>Lunch</strong>
+                  <span>100 kcal · 13:00</span>
+                </div>
+
+                <span>✓</span>
+              </div>
+
+
+              <div class="meal">
+                <div class="meal-icon">🌙</div>
+
+                <div>
+                  <strong>Dinner</strong>
+                  <span>100 kcal · 19:00</span>
+                </div>
+
+                <button class="small-btn">Add</button>
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- ACTIVITY -->
+          <article class="card activity-card" id="activity">
+
+            <div class="card-header">
+
+              <div>
+                <span class="section-label">ACTIVITY</span>
+                <h2>Weekly activity</h2>
+              </div>
+
+              <span class="trend">↗ 12%</span>
+
+            </div>
+
+
+            <div class="chart">
+
+              <div class="chart-y">
+                <span>60</span>
+                <span>40</span>
+                <span>20</span>
+                <span>0</span>
+              </div>
+
+              <div class="bars">
+
+                <div class="bar-column">
+                  <div class="bar" style="height:55%"></div>
+                  <span>Mon</span>
+                </div>
+
+                <div class="bar-column">
+                  <div class="bar" style="height:72%"></div>
+                  <span>Tue</span>
+                </div>
+
+                <div class="bar-column">
+                  <div class="bar" style="height:45%"></div>
+                  <span>Wed</span>
+                </div>
+
+                <div class="bar-column">
+                  <div class="bar" style="height:82%"></div>
+                  <span>Thu</span>
+                </div>
+
+                <div class="bar-column">
+                  <div class="bar" style="height:65%"></div>
+                  <span>Fri</span>
+                </div>
+
+                <div class="bar-column today">
+                  <div class="bar" style="height:92%"></div>
+                  <span>Sat</span>
+                </div>
+
+                <div class="bar-column">
+                  <div class="bar" style="height:0%"></div>
+                  <span>Sun</span>
+                </div>
+
+              </div>
+
+            </div>
+
+          </article>
+
+        </section>
+
+
+        <!-- BOTTOM -->
+        <section class="bottom-grid">
+
+          <!-- ACHIEVEMENTS -->
+          <article class="card" id="achievements">
+
+            <div class="card-header">
+
+              <div>
+                <span class="section-label">REWARDS</span>
+                <h2>Achievements</h2>
+              </div>
+
+              <span class="level">LEVEL 12</span>
+
+            </div>
+
+
+            <div class="achievement-list">
+
+              <div class="achievement unlocked">
+                <span>🏆</span>
+                <div>
+                  <strong>Happy Cat</strong>
+                  <small>7 happy days</small>
+                </div>
+              </div>
+
+              <div class="achievement unlocked">
+                <span>🎾</span>
+                <div>
+                  <strong>Play Master</strong>
+                  <small>100 minutes played</small>
+                </div>
+              </div>
+
+              <div class="achievement locked">
+                <span>💎</span>
+                <div>
+                  <strong>Legendary</strong>
+                  <small>Reach level 20</small>
+                </div>
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GALLERY -->
+          <article class="card gallery-card" id="gallery">
+
+            <div class="card-header">
+
+              <div>
+                <span class="section-label">MEMORIES</span>
+                <h2>Cat gallery</h2>
+              </div>
+
+              <button class="link-btn">See all →</button>
+
+            </div>
+
+
+            <div class="gallery">
+
+              <div class="photo">😺</div>
+              <div class="photo">😴</div>
+              <div class="photo">😻</div>
+              <div class="photo">🙀</div>
+
+            </div>
+
+          </article>
+
+        </section>
+
+      </div>
+
+    </main>
+
+  </div>
+
+
+  <!-- TOAST -->
+  <div class="toast" id="toast">
+    <span>🐾</span>
+    <div>
+      <strong id="toastTitle">Done!</strong>
+      <p id="toastMessage">Action completed.</p>
+    </div>
+  </div>
+
+
+  <script src="js.js"></script>
+
+</body>
+</html>
